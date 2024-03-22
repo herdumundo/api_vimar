@@ -1,0 +1,23 @@
+
+@api = http://localhost:8000/products
+@api2 = http://localhost:8000/api/login3
+
+GET {{api}}
+
+###
+GET {{api}}/A0000000964000005335111
+
+###
+GET {{api2}}/central/123
+
+###
+POST {{api}}
+Content-Type: application/json
+
+{
+    "nroCaravana":"3378B" ,
+    "IDE":"A00000009640010411906712",
+    "Sexo":"Macho"
+}
+ 
+ 
